@@ -16,7 +16,7 @@ const Navbar = () => {
       ];
       
     return (
-        <div className="bg-slate-600 p-4">
+        <div className="bg-slate-600 p-4 mb-6">
             <div className="md:hidden text-2xl text-white" onClick={() => setOpen(!open)}>
                 {
                     open === true ? 
